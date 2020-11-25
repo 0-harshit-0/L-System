@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lindenmayer System</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Texturina:wght@600&display=swap" rel="stylesheet">
+
+    <script src="https://cdn.jsdelivr.net/gh/0-harshit-0/Utility-HTML5Canvas@master/utility.min.js" defer="true"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    <script src="main.js" defer="true"></script>
+</head>
+<body>
+
+	<header>
+		<h1>L-System</h1>
+
+		<ul>
+			<li onclick="bush()">Bush</li>
+			<li onclick="crystal()">Crystal</li>
+			<li onclick="QuadraticSnowflake();">Quadratic Snowflake</li>
+			<li onclick="QuadraticKochIsland()">Quadratic Koch Island</li>
+			<li onclick="Snowflake()">Snowflake</li>
+			<li onclick="Pentaplexity()">Pentaplexity</li>
+			<br><br>
+			<button onclick="generate();">generate</button>
+			<br>
+			<label for="range">length/radius: </label><input id="range" type="range" name="radius" step="1" value="50" min="1" max="100">
+		</ul>
+	</header>
+
+	
+	
+
+	<canvas id="canvas"></canvas>
+    
+</body>
+</html>
