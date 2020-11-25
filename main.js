@@ -126,7 +126,6 @@ function turtle() {
 	}	
 }
 function generate() {
-	//length = length/2;
 	let newSentence = '';
 	for (let i = 0; i < sentence.length; i++) {
 		for (let j = 0; j < rules.length; j++) {
@@ -138,7 +137,6 @@ function generate() {
 		}
 		
 	}
-	//console.log(newSentence);
 	sentence = newSentence;
 	turtle();
 }
