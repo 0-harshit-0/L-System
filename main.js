@@ -110,7 +110,7 @@ function turtle() {
 			ctx.strokeStyle = 'white';
 			ctx.moveTo(0, 0);
 			ctx.lineTo(0, -length);
-			ctx.stroke('white');
+			ctx.stroke();
 			ctx.translate(0, -length);
 
 		}else if (now == '+') {
