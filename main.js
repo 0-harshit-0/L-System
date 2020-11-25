@@ -107,6 +107,7 @@ function turtle() {
 		//console.log(now)
 		if (now == 'F') {
 			ctx.beginPath();
+			ctx.strokeStyle = 'white';
 			ctx.moveTo(0, 0);
 			ctx.lineTo(0, -length);
 			ctx.stroke('white');
